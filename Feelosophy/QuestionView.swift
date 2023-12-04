@@ -16,25 +16,16 @@ struct QuestionView: View {
 
     var body: some View {
         NavigationStack {
-            ScrollView(.horizontal) {
-                LazyVStack(spacing: 30) {
-                    Button(action: addBad) {
-                        Label("Add bad mood", systemImage: "hand.thumbsdown.circle")
-                    }
-                    Button(action: addGood) {
-                        Label("Add good mood", systemImage: "hand.thumbsup.circle")
-                    }
-                }
-                .scrollTargetLayout()
-            }
-            .scrollTargetBehavior(.viewAligned)
-            .safeAreaPadding(.horizontal, 40)
-            .navigationTitle("Add your Mood!")
+            Text("Choose Your Mood!")
+                .font(.largeTitle)
+                .bold()
+            Divider()
+            Spacer()
             if state == true {
-                Text("Added!")
+                Text("Thanks for sharing!")
                     .padding()
                     .foregroundColor(.white)
-                    .frame(width: UIScreen.main.bounds.width - 10, height: 100)
+                    .frame(width: UIScreen.main.bounds.width - 30, height: 50)
                     .background(.green, in: RoundedRectangle(cornerRadius: 20))
                     .onAppear {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
@@ -42,12 +33,51 @@ struct QuestionView: View {
                         }
                     }
             }
+            VStack(spacing: 30) {
+                Button(action: addGood) {
+                    Label("I'm currently feeling great!", systemImage: "hand.thumbsup.circle")
+                        .bold()
+                }
+                .foregroundColor(.white)
+                .frame(width: UIScreen.main.bounds.width - 10, height: 100)
+                .background(Color(red: 0.4627, green: 0.5, blue: 1.0), in: RoundedRectangle(cornerRadius: 20))
+                Button(action: addAlright) {
+                    Label("I'm currently feeling alright!", systemImage: "hand.thumbsup.circle")
+                        .bold()
+                }
+                .foregroundColor(.white)
+                .frame(width: UIScreen.main.bounds.width - 10, height: 100)
+                .background(Color(red: 0.4627, green: 0.5, blue: 1.0), in: RoundedRectangle(cornerRadius: 20))
+                Button(action: addBad) {
+                    Label("I'm currently feeling sad...", systemImage: "hand.thumbsdown.circle")
+                        .bold()
+                }
+                .foregroundColor(.white)
+                .frame(width: UIScreen.main.bounds.width - 10, height: 100)
+                .background(.pink, in: RoundedRectangle(cornerRadius: 20))
+                Button(action: addTired) {
+                    Label("I'm currently feeling tired...", systemImage: "hand.thumbsdown.circle")
+                        .bold()
+                }
+                .foregroundColor(.white)
+                .frame(width: UIScreen.main.bounds.width - 10, height: 100)
+                .background(.pink, in: RoundedRectangle(cornerRadius: 20))
+            }
+            Spacer()
         }
     }
     
     private func addGood() {
         withAnimation {
             let newItem = Item(timestamp: Date(), mood: "Happy")
+            modelContext.insert(newItem)
+            state = true
+        }
+    }
+    
+    private func addAlright() {
+        withAnimation {
+            let newItem = Item(timestamp: Date(), mood: "Alright")
             modelContext.insert(newItem)
             state = true
         }
@@ -60,6 +90,14 @@ struct QuestionView: View {
             state = true
         }
     }
+    
+    private func addTired() {
+        withAnimation {
+            let newItem = Item(timestamp: Date(), mood: "Tired")
+            modelContext.insert(newItem)
+            state = true
+        }
+    }
 
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
@@ -67,16 +105,6 @@ struct QuestionView: View {
                 modelContext.delete(items[index])
             }
         }
-    }
-}
-
-struct SuccessNotification: View {
-    var body: some View {
-        Text("Success")
-            .padding()
-            .foregroundColor(.white)
-            .frame(width: UIScreen.main.bounds.width - 10, height: 100)
-            .background(.green, in: RoundedRectangle(cornerRadius: 20))
     }
 }
 

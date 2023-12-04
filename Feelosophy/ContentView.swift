@@ -16,43 +16,36 @@ struct ContentView: View {
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
+                ForEach(items.reversed()) { item in
                     NavigationLink {
                         VStack {
+                            AsyncImage(url: URL(string:
+                                                    viewModel.imageURLString)) {
+                                image in image.resizable()
+                                    .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                            } placeholder: {
+                                ProgressView()
+                            }
+                            .frame(width: 250, height: 250)
+                            .clipShape(RoundedRectangle(cornerRadius: 20))
+                            .background(RoundedRectangle(cornerRadius: 20).stroke(LinearGradient(gradient: Gradient(colors:[.blue, .green]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/), lineWidth: 5))
+                            .shadow(radius: 20)
                             if (item.mood == "Happy") {
-                                AsyncImage(url: URL(string:
-                                                        viewModel.imageURLString)) {
-                                    image in image.resizable()
-                                        .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-                                } placeholder: {
-                                    ProgressView()
-                                }
-                                .frame(width: 250, height: 250)
-                                .clipShape(RoundedRectangle(cornerRadius: 20))
-                                .background(RoundedRectangle(cornerRadius: 20).stroke(LinearGradient(gradient: Gradient(colors:[.blue, .pink]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/), lineWidth: 5))
-                                .shadow(radius: 20)
                                 Text("Your mood was \(item.mood)! Keep up that positive energy by hanging out with some friends, and making sure to spread that positive energy around!")
-                            } else {
-                                AsyncImage(url: URL(string:
-                                                        viewModel.imageURLString)) {
-                                    image in image.resizable()
-                                        .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-                                } placeholder: {
-                                    ProgressView()
-                                }
-                                .frame(width: 250, height: 250)
-                                .clipShape(RoundedRectangle(cornerRadius: 20))
-                                .background(RoundedRectangle(cornerRadius: 20).stroke(LinearGradient(gradient: Gradient(colors:[.blue, .pink]), startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/), lineWidth: 5))
-                                .shadow(radius: 20)
-                                Text("Your mood was \(item.mood)! Talk to some friends to make yourself feel better! Remember that you are worth more than your actions.")
+                            } else if (item.mood == "Sad") {
+                                Text("Your mood was \(item.mood)! We all have off days... Everything will turn out okay as long as you continue working hard in life. You got this!")
+                            } else if (item.mood == "Alright") {
+                                Text("Your mood was \(item.mood)! You should try doing something you love such as taking a walk outside or spending time with your loved ones to make yourself feel great!")
+                            } else if (item.mood == "Tired") {
+                                Text("Your mood was \(item.mood)! It's okay to take breaks! Burnout is a serious problem so make sure to de-stress and enjoy life without overloading yourself!")
                             }
                         }
                     } label: {
                         HStack {
-                            if (item.mood == "Happy") {
+                            if (item.mood == "Happy" || item.mood == "Alright") {
                                 Image(systemName: "face.smiling.inverse")
                                 Text("mood at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                            } else {
+                            } else if (item.mood == "Sad" || item.mood == "Tired"){
                                 Image(systemName: "cloud.rain")
                                 Text("mood at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
                             }
@@ -61,42 +54,13 @@ struct ContentView: View {
                 }
                 .onDelete(perform: deleteItems)
             }
-#if os(macOS)
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-#endif
             .toolbar {
-#if os(iOS)
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
-                }
-#endif
-                ToolbarItem {
-                    Button(action: addBad) {
-                        Label("Add bad mood", systemImage: "hand.thumbsdown.circle")
-                    }
-                }
-                ToolbarItem {
-                    Button(action: addGood) {
-                        Label("Add good mood", systemImage: "hand.thumbsup.circle")
-                    }
                 }
             }
         } detail: {
             Text("Select an item")
-        }
-    }
-
-    private func addGood() {
-        withAnimation {
-            let newItem = Item(timestamp: Date(), mood: "Happy")
-            modelContext.insert(newItem)
-        }
-    }
-    
-    private func addBad() {
-        withAnimation {
-            let newItem = Item(timestamp: Date(), mood: "Sad")
-            modelContext.insert(newItem)
         }
     }
 

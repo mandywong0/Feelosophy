@@ -31,7 +31,7 @@ struct FeelosophyApp: App {
                         Label("Mood", systemImage: "lightbulb.min")
                     }
                 ContentView()
-                    .tabItem { Label("My Cards", systemImage: "rectangle.stack") }
+                    .tabItem { Label("Log of Moods", systemImage: "rectangle.stack") }
             }
             .modelContainer(sharedModelContainer)
         }
