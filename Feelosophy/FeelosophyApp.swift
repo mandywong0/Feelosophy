@@ -25,8 +25,15 @@ struct FeelosophyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                QuestionView()
+                    .tabItem {
+                        Label("Mood", systemImage: "lightbulb.min")
+                    }
+                ContentView()
+                    .tabItem { Label("My Cards", systemImage: "rectangle.stack") }
+            }
+            .modelContainer(sharedModelContainer)
         }
-        .modelContainer(sharedModelContainer)
     }
 }

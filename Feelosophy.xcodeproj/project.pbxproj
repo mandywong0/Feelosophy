@@ -13,6 +13,7 @@
 		36AB5FE82B1D777200362CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AB5FE72B1D777200362CE8 /* Assets.xcassets */; };
 		36AB5FEB2B1D777200362CE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AB5FEA2B1D777200362CE8 /* Preview Assets.xcassets */; };
 		36AB5FF22B1D77E400362CE8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB5FF12B1D77E400362CE8 /* ViewModel.swift */; };
+		36BB17982B1D7AEE009033C3 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BB17972B1D7AEE009033C3 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		36AB5FE72B1D777200362CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36AB5FEA2B1D777200362CE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36AB5FF12B1D77E400362CE8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		36BB17972B1D7AEE009033C3 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				36AB5FE12B1D777000362CE8 /* FeelosophyApp.swift */,
 				36AB5FF12B1D77E400362CE8 /* ViewModel.swift */,
 				36AB5FE32B1D777000362CE8 /* ContentView.swift */,
+				36BB17972B1D7AEE009033C3 /* QuestionView.swift */,
 				36AB5FE52B1D777000362CE8 /* Item.swift */,
 				36AB5FE72B1D777200362CE8 /* Assets.xcassets */,
 				36AB5FE92B1D777200362CE8 /* Preview Content */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36BB17982B1D7AEE009033C3 /* QuestionView.swift in Sources */,
 				36AB5FE42B1D777000362CE8 /* ContentView.swift in Sources */,
 				36AB5FE62B1D777000362CE8 /* Item.swift in Sources */,
 				36AB5FF22B1D77E400362CE8 /* ViewModel.swift in Sources */,
