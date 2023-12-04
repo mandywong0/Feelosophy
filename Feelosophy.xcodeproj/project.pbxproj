@@ -7,58 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		863997342B0D83BB0028C387 /* FeelosophyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863997332B0D83BB0028C387 /* FeelosophyApp.swift */; };
-		863997362B0D83BB0028C387 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863997352B0D83BB0028C387 /* ContentView.swift */; };
-		863997382B0D83BB0028C387 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863997372B0D83BB0028C387 /* Item.swift */; };
-		8639973A2B0D83BE0028C387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863997392B0D83BE0028C387 /* Assets.xcassets */; };
-		8639973E2B0D83BE0028C387 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8639973D2B0D83BE0028C387 /* Preview Assets.xcassets */; };
+		36AB5FE22B1D777000362CE8 /* FeelosophyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB5FE12B1D777000362CE8 /* FeelosophyApp.swift */; };
+		36AB5FE42B1D777000362CE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB5FE32B1D777000362CE8 /* ContentView.swift */; };
+		36AB5FE62B1D777000362CE8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB5FE52B1D777000362CE8 /* Item.swift */; };
+		36AB5FE82B1D777200362CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AB5FE72B1D777200362CE8 /* Assets.xcassets */; };
+		36AB5FEB2B1D777200362CE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AB5FEA2B1D777200362CE8 /* Preview Assets.xcassets */; };
+		36AB5FF22B1D77E400362CE8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AB5FF12B1D77E400362CE8 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		863997442B0D83BE0028C387 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 863997282B0D83BB0028C387 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8639972F2B0D83BB0028C387;
-			remoteInfo = Feelosophy;
-		};
-		8639974E2B0D83BE0028C387 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 863997282B0D83BB0028C387 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8639972F2B0D83BB0028C387;
-			remoteInfo = Feelosophy;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		863997302B0D83BB0028C387 /* Feelosophy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feelosophy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		863997332B0D83BB0028C387 /* FeelosophyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelosophyApp.swift; sourceTree = "<group>"; };
-		863997352B0D83BB0028C387 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		863997372B0D83BB0028C387 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		863997392B0D83BE0028C387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8639973B2B0D83BE0028C387 /* Feelosophy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Feelosophy.entitlements; sourceTree = "<group>"; };
-		8639973D2B0D83BE0028C387 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		863997432B0D83BE0028C387 /* FeelosophyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelosophyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8639974D2B0D83BE0028C387 /* FeelosophyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelosophyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AB5FDE2B1D777000362CE8 /* Feelosophy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feelosophy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36AB5FE12B1D777000362CE8 /* FeelosophyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelosophyApp.swift; sourceTree = "<group>"; };
+		36AB5FE32B1D777000362CE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36AB5FE52B1D777000362CE8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		36AB5FE72B1D777200362CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36AB5FEA2B1D777200362CE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36AB5FF12B1D77E400362CE8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8639972D2B0D83BB0028C387 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		863997402B0D83BE0028C387 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8639974A2B0D83BE0028C387 /* Frameworks */ = {
+		36AB5FDB2B1D777000362CE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,41 +36,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		863997272B0D83BB0028C387 = {
+		36AB5FD52B1D777000362CE8 = {
 			isa = PBXGroup;
 			children = (
-				863997322B0D83BB0028C387 /* Feelosophy */,
-				863997312B0D83BB0028C387 /* Products */,
+				36AB5FE02B1D777000362CE8 /* Feelosophy */,
+				36AB5FDF2B1D777000362CE8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		863997312B0D83BB0028C387 /* Products */ = {
+		36AB5FDF2B1D777000362CE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				863997302B0D83BB0028C387 /* Feelosophy.app */,
-				863997432B0D83BE0028C387 /* FeelosophyTests.xctest */,
-				8639974D2B0D83BE0028C387 /* FeelosophyUITests.xctest */,
+				36AB5FDE2B1D777000362CE8 /* Feelosophy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		863997322B0D83BB0028C387 /* Feelosophy */ = {
+		36AB5FE02B1D777000362CE8 /* Feelosophy */ = {
 			isa = PBXGroup;
 			children = (
-				863997332B0D83BB0028C387 /* FeelosophyApp.swift */,
-				863997352B0D83BB0028C387 /* ContentView.swift */,
-				863997372B0D83BB0028C387 /* Item.swift */,
-				863997392B0D83BE0028C387 /* Assets.xcassets */,
-				8639973B2B0D83BE0028C387 /* Feelosophy.entitlements */,
-				8639973C2B0D83BE0028C387 /* Preview Content */,
+				36AB5FE12B1D777000362CE8 /* FeelosophyApp.swift */,
+				36AB5FF12B1D77E400362CE8 /* ViewModel.swift */,
+				36AB5FE32B1D777000362CE8 /* ContentView.swift */,
+				36AB5FE52B1D777000362CE8 /* Item.swift */,
+				36AB5FE72B1D777200362CE8 /* Assets.xcassets */,
+				36AB5FE92B1D777200362CE8 /* Preview Content */,
 			);
 			path = Feelosophy;
 			sourceTree = "<group>";
 		};
-		8639973C2B0D83BE0028C387 /* Preview Content */ = {
+		36AB5FE92B1D777200362CE8 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8639973D2B0D83BE0028C387 /* Preview Assets.xcassets */,
+				36AB5FEA2B1D777200362CE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -110,13 +76,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8639972F2B0D83BB0028C387 /* Feelosophy */ = {
+		36AB5FDD2B1D777000362CE8 /* Feelosophy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 863997572B0D83BE0028C387 /* Build configuration list for PBXNativeTarget "Feelosophy" */;
+			buildConfigurationList = 36AB5FEE2B1D777200362CE8 /* Build configuration list for PBXNativeTarget "Feelosophy" */;
 			buildPhases = (
-				8639972C2B0D83BB0028C387 /* Sources */,
-				8639972D2B0D83BB0028C387 /* Frameworks */,
-				8639972E2B0D83BB0028C387 /* Resources */,
+				36AB5FDA2B1D777000362CE8 /* Sources */,
+				36AB5FDB2B1D777000362CE8 /* Frameworks */,
+				36AB5FDC2B1D777000362CE8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,69 +90,25 @@
 			);
 			name = Feelosophy;
 			productName = Feelosophy;
-			productReference = 863997302B0D83BB0028C387 /* Feelosophy.app */;
+			productReference = 36AB5FDE2B1D777000362CE8 /* Feelosophy.app */;
 			productType = "com.apple.product-type.application";
-		};
-		863997422B0D83BE0028C387 /* FeelosophyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8639975A2B0D83BE0028C387 /* Build configuration list for PBXNativeTarget "FeelosophyTests" */;
-			buildPhases = (
-				8639973F2B0D83BE0028C387 /* Sources */,
-				863997402B0D83BE0028C387 /* Frameworks */,
-				863997412B0D83BE0028C387 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				863997452B0D83BE0028C387 /* PBXTargetDependency */,
-			);
-			name = FeelosophyTests;
-			productName = FeelosophyTests;
-			productReference = 863997432B0D83BE0028C387 /* FeelosophyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8639974C2B0D83BE0028C387 /* FeelosophyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8639975D2B0D83BE0028C387 /* Build configuration list for PBXNativeTarget "FeelosophyUITests" */;
-			buildPhases = (
-				863997492B0D83BE0028C387 /* Sources */,
-				8639974A2B0D83BE0028C387 /* Frameworks */,
-				8639974B2B0D83BE0028C387 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8639974F2B0D83BE0028C387 /* PBXTargetDependency */,
-			);
-			name = FeelosophyUITests;
-			productName = FeelosophyUITests;
-			productReference = 8639974D2B0D83BE0028C387 /* FeelosophyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		863997282B0D83BB0028C387 /* Project object */ = {
+		36AB5FD62B1D777000362CE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					8639972F2B0D83BB0028C387 = {
+					36AB5FDD2B1D777000362CE8 = {
 						CreatedOnToolsVersion = 15.0.1;
-					};
-					863997422B0D83BE0028C387 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 8639972F2B0D83BB0028C387;
-					};
-					8639974C2B0D83BE0028C387 = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 8639972F2B0D83BB0028C387;
 					};
 				};
 			};
-			buildConfigurationList = 8639972B2B0D83BB0028C387 /* Build configuration list for PBXProject "Feelosophy" */;
+			buildConfigurationList = 36AB5FD92B1D777000362CE8 /* Build configuration list for PBXProject "Feelosophy" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,86 +116,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 863997272B0D83BB0028C387;
-			productRefGroup = 863997312B0D83BB0028C387 /* Products */;
+			mainGroup = 36AB5FD52B1D777000362CE8;
+			productRefGroup = 36AB5FDF2B1D777000362CE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8639972F2B0D83BB0028C387 /* Feelosophy */,
-				863997422B0D83BE0028C387 /* FeelosophyTests */,
-				8639974C2B0D83BE0028C387 /* FeelosophyUITests */,
+				36AB5FDD2B1D777000362CE8 /* Feelosophy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8639972E2B0D83BB0028C387 /* Resources */ = {
+		36AB5FDC2B1D777000362CE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8639973E2B0D83BE0028C387 /* Preview Assets.xcassets in Resources */,
-				8639973A2B0D83BE0028C387 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		863997412B0D83BE0028C387 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8639974B2B0D83BE0028C387 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				36AB5FEB2B1D777200362CE8 /* Preview Assets.xcassets in Resources */,
+				36AB5FE82B1D777200362CE8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8639972C2B0D83BB0028C387 /* Sources */ = {
+		36AB5FDA2B1D777000362CE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				863997362B0D83BB0028C387 /* ContentView.swift in Sources */,
-				863997382B0D83BB0028C387 /* Item.swift in Sources */,
-				863997342B0D83BB0028C387 /* FeelosophyApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8639973F2B0D83BE0028C387 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		863997492B0D83BE0028C387 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				36AB5FE42B1D777000362CE8 /* ContentView.swift in Sources */,
+				36AB5FE62B1D777000362CE8 /* Item.swift in Sources */,
+				36AB5FF22B1D77E400362CE8 /* ViewModel.swift in Sources */,
+				36AB5FE22B1D777000362CE8 /* FeelosophyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		863997452B0D83BE0028C387 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8639972F2B0D83BB0028C387 /* Feelosophy */;
-			targetProxy = 863997442B0D83BE0028C387 /* PBXContainerItemProxy */;
-		};
-		8639974F2B0D83BE0028C387 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8639972F2B0D83BB0028C387 /* Feelosophy */;
-			targetProxy = 8639974E2B0D83BE0028C387 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		863997552B0D83BE0028C387 /* Debug */ = {
+		36AB5FEC2B1D777200362CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -325,16 +205,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		863997562B0D83BE0028C387 /* Release */ = {
+		36AB5FED2B1D777200362CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,211 +262,94 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		863997582B0D83BE0028C387 /* Debug */ = {
+		36AB5FEF2B1D777200362CE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Feelosophy/Feelosophy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Feelosophy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cubstart.Feelosophy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		863997592B0D83BE0028C387 /* Release */ = {
+		36AB5FF02B1D777200362CE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Feelosophy/Feelosophy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Feelosophy/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cubstart.Feelosophy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8639975B2B0D83BE0028C387 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cubstart.FeelosophyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelosophy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Feelosophy";
-			};
-			name = Debug;
-		};
-		8639975C2B0D83BE0028C387 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cubstart.FeelosophyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feelosophy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Feelosophy";
-			};
-			name = Release;
-		};
-		8639975E2B0D83BE0028C387 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cubstart.FeelosophyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Feelosophy;
-			};
-			name = Debug;
-		};
-		8639975F2B0D83BE0028C387 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cubstart.FeelosophyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Feelosophy;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8639972B2B0D83BB0028C387 /* Build configuration list for PBXProject "Feelosophy" */ = {
+		36AB5FD92B1D777000362CE8 /* Build configuration list for PBXProject "Feelosophy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				863997552B0D83BE0028C387 /* Debug */,
-				863997562B0D83BE0028C387 /* Release */,
+				36AB5FEC2B1D777200362CE8 /* Debug */,
+				36AB5FED2B1D777200362CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		863997572B0D83BE0028C387 /* Build configuration list for PBXNativeTarget "Feelosophy" */ = {
+		36AB5FEE2B1D777200362CE8 /* Build configuration list for PBXNativeTarget "Feelosophy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				863997582B0D83BE0028C387 /* Debug */,
-				863997592B0D83BE0028C387 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8639975A2B0D83BE0028C387 /* Build configuration list for PBXNativeTarget "FeelosophyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8639975B2B0D83BE0028C387 /* Debug */,
-				8639975C2B0D83BE0028C387 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8639975D2B0D83BE0028C387 /* Build configuration list for PBXNativeTarget "FeelosophyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8639975E2B0D83BE0028C387 /* Debug */,
-				8639975F2B0D83BE0028C387 /* Release */,
+				36AB5FEF2B1D777200362CE8 /* Debug */,
+				36AB5FF02B1D777200362CE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 863997282B0D83BB0028C387 /* Project object */;
+	rootObject = 36AB5FD62B1D777000362CE8 /* Project object */;
 }

@@ -2,7 +2,7 @@
 //  FeelosophyApp.swift
 //  Feelosophy
 //
-//  Created by Jane Lee on 11/21/23.
+//  Created by Justin Lee on 12/3/23.
 //
 
 import SwiftUI
