@@ -21,7 +21,7 @@ struct MainMenuView: View {
             Spacer()
             Text("- Urgent Drop In Counseling: (510) 642-9494")
             Text("- National suicide prevention hotline: Dial 988")
-            Text("- Path to Care: Dial (510) 643-2005")
+            Text("- Path to Care: (510) 643-2005")
             Spacer()
             
             
