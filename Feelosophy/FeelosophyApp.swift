@@ -10,6 +10,7 @@ import SwiftData
 
 @main
 struct FeelosophyApp: App {
+    @State private var showing = false
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -26,6 +27,8 @@ struct FeelosophyApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
+                MainMenuView()
+                    .tabItem { Label("Home", systemImage: "house") }
                 QuestionView()
                     .tabItem {
                         Label("Mood", systemImage: "lightbulb.min")
