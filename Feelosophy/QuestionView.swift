@@ -69,7 +69,8 @@ struct QuestionView: View {
     
     private func addGood() {
         withAnimation {
-            let newItem = Item(timestamp: Date(), mood: "Happy")
+            viewModel.fetchNewDog()
+            let newItem = Item(timestamp: Date(), mood: "Happy", url: viewModel.imageURLString)
             modelContext.insert(newItem)
             state = true
         }
@@ -77,7 +78,8 @@ struct QuestionView: View {
     
     private func addAlright() {
         withAnimation {
-            let newItem = Item(timestamp: Date(), mood: "Alright")
+            viewModel.fetchNewDog()
+            let newItem = Item(timestamp: Date(), mood: "Alright", url: viewModel.imageURLString)
             modelContext.insert(newItem)
             state = true
         }
@@ -85,7 +87,8 @@ struct QuestionView: View {
     
     private func addBad() {
         withAnimation {
-            let newItem = Item(timestamp: Date(), mood: "Sad")
+            viewModel.fetchNewDog()
+            let newItem = Item(timestamp: Date(), mood: "Sad", url: viewModel.imageURLString)
             modelContext.insert(newItem)
             state = true
         }
@@ -93,7 +96,8 @@ struct QuestionView: View {
     
     private func addTired() {
         withAnimation {
-            let newItem = Item(timestamp: Date(), mood: "Tired")
+            viewModel.fetchNewDog()
+            let newItem = Item(timestamp: Date(), mood: "Tired", url: viewModel.imageURLString)
             modelContext.insert(newItem)
             state = true
         }

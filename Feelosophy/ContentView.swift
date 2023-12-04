@@ -20,7 +20,7 @@ struct ContentView: View {
                     NavigationLink {
                         VStack {
                             AsyncImage(url: URL(string:
-                                                    viewModel.imageURLString)) {
+                                                    item.url)) {
                                 image in image.resizable()
                                     .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
                             } placeholder: {
@@ -67,7 +67,7 @@ struct ContentView: View {
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
-                modelContext.delete(items[index])
+                modelContext.delete(items[items.count - index - 1])
             }
         }
     }

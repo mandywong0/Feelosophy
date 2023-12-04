@@ -12,10 +12,12 @@ import SwiftData
 final class Item {
     var timestamp: Date
     var mood: String
+    var url: String
     
     
-    init(timestamp: Date, mood: String) {
+    init(timestamp: Date, mood: String, url: String) {
         self.timestamp = timestamp
         self.mood = mood
+        self.url = url
     }
 }
