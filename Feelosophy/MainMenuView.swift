@@ -13,7 +13,8 @@ struct MainMenuView: View {
     var body: some View {
         VStack{
             Spacer()
-            Text("Welcome to Feelosophy!").font(.title)
+            Text("Feelosophy").font(.custom("Georgia", size: 50, relativeTo: .headline)).bold()
+            Divider()
             Spacer()
             Text("This app was created with the mental health of students in mind. Whether you're feeling on top of the world, or down in the dumps, this app will provide you with actionable suggestions on what to do based on how you are feeling. Here at Feelosophy, we believe that it's crucial to stay in touch with your own emotions.  ").frame(width:300).multilineTextAlignment(.center)
             Spacer()
@@ -23,7 +24,7 @@ struct MainMenuView: View {
             Text("- National suicide prevention hotline: Dial 988")
             Text("- Path to Care: (510) 643-2005")
             Spacer()
-            
+            Spacer()
             
         }
     }
